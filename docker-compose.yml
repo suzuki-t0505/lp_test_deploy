@@ -1,8 +1,9 @@
 services:
   web:
-    build: .
+    image: node:25-slim
     ports:
       - 5173:5173
     volumes:
       - .:/work
-      - /work/node_modules
+    working_dir: /work
+    command: "npm run dev"
