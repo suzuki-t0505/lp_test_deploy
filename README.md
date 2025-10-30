@@ -21,3 +21,12 @@ http://localhost:5173/
 
 ## how to edit
 /src/App.jsx
+
+## Dockerを使用する場合
+
+```bash
+docker compse up -d
+```
+
+[http://localhost:5173/](http://localhost:5173/)
+

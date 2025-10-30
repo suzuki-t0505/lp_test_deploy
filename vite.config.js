@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Leadership/my-swipe-lp/',
+  server: {
+    host: "0.0.0.0",
+  }
 })
